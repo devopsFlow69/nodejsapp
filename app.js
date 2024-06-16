@@ -10,7 +10,7 @@ app.get('/health', (req, res) => {
 
 // Define a default route
 app.get('/', (req, res) => {
-  res.send('Hello, World!');
+  res.send('Hello, World! 2');
 });
 
 // Start the server
